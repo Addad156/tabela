@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wykonal wojciechowski 2g2</title>
+</head>
+<body>
+
+    <h1>Formularz mechanika</h1>
+    
+    <form action="/submit" method="POST">
+        <label for="name">podaj swoje imie:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="nazwisko">podaj swoje nazwisko:</label><br>
+        <input type="email" id="email" name="nazwisko" required><br><br>
+
+        <label for="e-mail">e-mail:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="=wojewodztwo">podaj swoijwojewodztwo:</label><br>
+        <select id="wojewodztwo" name="wojewodztwo">
+            <option value="inquiry">pomorskie</option>
+            <option value="feedback">zachodnio pomorskie</option>
+            <option value="support">kujawsko pomorskie</option>
+	    <option value="support">waminsko mazurskie</option>
+	    <option value="support">lubelskie</option>
+	    <option value="support">lubuskie</option>
+	    <option value="support">dolnoslaskie</option>
+	    <option value="support">slaskie</option>
+	    <option value="support">opolskie</option>
+	    <option value="support">mazowieckie</option>
+	    <option value="support">wielkopolskie</option>
+	    <option value="support">podkarpackie</option>
+	    <option value="support">malopolskie</option>
+	    <option value="support">lodzkie</option>
+	    <option value="support">swietokrzyskie</option>
+	    <option value="support">podlaskie</option>
+
+        </select><br><br>
+
+         <label for="inne">jesli inne to jakie:</label><br>
+        <input type="text" id="inne" name="inne" required><br><br>
+	
+
+</select><br><br>
+ <label for="=szkola">jaka szkole ukonczyles:</label><br>
+        <select id="wojewodztwo" name="wojewodztwo">
+            <option value="inquiry">podstawowa</option>
+            <option value="feedback">srednia</option>
+            <option value="support">wyzsza</option>
+</select><br><br>
+
+<label for="=doswiadczenie">ile masz lat doswiadczenia:</label><br>
+        <select id="doswiadczenie" name="doswiadczenie">
+            <option value="support">0-3</option>
+            <option value="support">4-7</option>
+            <option value="support">8-11</option>
+	    <option value="support"><12</option>
+
+
+
+</select><br><br>
+<label for="=pelnoletni">czy jestes pelnoletni:</label><br>
+        <select id="pelnoletni" name="pelnoletni">
+            <option value="support">tak</option>
+            <option value="support">nie</option>
+
+</select><br><br>
+
+  <label for="dlaczego">dlaczego ty?:</label><br>
+        <textarea id="dlaczego" name="dlaczego" rows="4" cols="50" required></textarea><br><br>
+
+        <button type="submit">reset</button>
+  <button type="submit">koniec</button>
+    </form>
+
+</body>
+</html>
